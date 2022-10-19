@@ -1,0 +1,10 @@
+.container {
+    width: 20%;
+    padding: 1em;
+    background-color: rgb(232, 232, 232);
+    border-radius: 20px;
+}
+
+.imagem {
+    width: 100%;
+}
