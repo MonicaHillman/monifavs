@@ -7,7 +7,7 @@ function Cabecalho() {
             <h1>MoniFavs</h1>
             <ul>
                 <CabecalhoLink url="./">Home</CabecalhoLink>
-                <CabecalhoLink url="./">Favoritos</CabecalhoLink>
+                <CabecalhoLink url="./Favoritos">Favoritos</CabecalhoLink>
             </ul>
         </header>
     )

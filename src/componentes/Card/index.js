@@ -1,11 +1,24 @@
 import styles from './Card.module.css'
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import { useFavoritoContext } from 'contextos/Favoritos';
 
-function Card() {
+function Card({ id, titulo, capa }) {
+    const { favorito, adicionarFavorito } = useFavoritoContext();
+    const ehFavorito = favorito.some((fav) => fav.id === id);
     return (
         <div className={styles.container}>
-            <img src="https://thecatapi.com/api/images/get?format=src&type=gif" alt="gato aleatório" className={styles.imagem}></img>
-            <h2>Gato Bonifácio</h2>
-            <p>Esse é um gato topzera das galáxias</p>
+            <img src={capa} alt="gato aleatório" className={styles.capa}></img>
+            <h2>{titulo}</h2>
+            {ehFavorito ?
+                <FavoriteIcon onClick={() => (
+                    adicionarFavorito({ id, titulo, capa })
+                )} />
+                :
+                <FavoriteBorderIcon onClick={() => (
+                    adicionarFavorito({ id, titulo, capa })
+                )} />
+            }
         </div>
     )
 }
