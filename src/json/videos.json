@@ -2,21 +2,25 @@
     {
         "id": 1,
         "titulo": "O labirinto do Logcat",
-        "capa": "https://i.ytimg.com/vi/ypvGqZGJBls/hqdefault.jpg"
+        "capa": "https://i.ytimg.com/vi/ypvGqZGJBls/hqdefault.jpg",
+        "link": "https://www.youtube.com/embed/ypvGqZGJBls"
     },
     {
         "id": 2,
         "titulo": "Um componente no espaço",
-        "capa": "https://i.ytimg.com/vi/jK0uiQ1ZQQQ/hqdefault.jpg"
+        "capa": "https://i.ytimg.com/vi/jK0uiQ1ZQQQ/hqdefault.jpg",
+        "link": "https://www.youtube.com/embed/jK0uiQ1ZQQQ"
     },
     {
         "id": 3,
         "titulo": "O poderoso JavaScript",
-        "capa": "https://i.ytimg.com/vi/N1BSG02z-Mw/hqdefault.jpg"
+        "capa": "https://i.ytimg.com/vi/N1BSG02z-Mw/hqdefault.jpg",
+        "link": "https://www.youtube.com/embed/N1BSG02z-Mw"
     },
     {
         "id": 4,
         "titulo": "Dart, o Caçador de Andróides",
-        "capa": "https://i.ytimg.com/vi/LLmBWjF6F8M/hqdefault.jpg"
+        "capa": "https://i.ytimg.com/vi/LLmBWjF6F8M/hqdefault.jpg",
+        "link": "https://www.youtube.com/embed/LLmBWjF6F8M"
     }
 ]

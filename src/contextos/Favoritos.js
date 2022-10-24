@@ -26,12 +26,18 @@ export function useFavoritoContext() {
 
     function adicionarFavorito(novoFavorito) {
         const favoritoRepetido = favorito.some(item => item.id === novoFavorito.id);
+
         let novaLista = [...favorito];
+
         if (!favoritoRepetido) {
             novaLista.push(novoFavorito);
             return setFavorito(novaLista);
         }
-        novaLista.splice(novoFavorito)
+        novaLista.splice(novaLista.indexOf(novoFavorito), 1);
+        /*O comando indexOf() retorna o primeiro índice no qual um determinado elemento pode ser encontrado no vetor 
+        e -1 se não estiver presente. 
+        Isso pode ser usado junto com splice() para procurar um elemento e, 
+        em seguida, removê-lo, mesmo que você não saiba onde ele está no array. */
         return setFavorito(novaLista)
     };
 
