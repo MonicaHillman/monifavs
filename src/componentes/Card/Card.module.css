@@ -1,10 +1,35 @@
 .container {
-    width: 20%;
-    padding: 1em;
-    background-color: rgb(232, 232, 232);
-    border-radius: 20px;
+    padding: 0 0 1em 0;
+    margin-top: .5em;
+    width: 282px;
+    background-color: var(--cor-de-fundo-card);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
 }
 
 .capa {
     width: 100%;
+}
+
+.link {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--cor-de-fundo);
+}
+
+.container h2,
+.favoritar {
+    padding: 0 1em;
+}
+
+.favoritar {
+    width: 25px;
+}
+
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 336px
+    }
 }

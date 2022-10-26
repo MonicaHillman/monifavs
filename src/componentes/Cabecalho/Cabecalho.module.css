@@ -2,6 +2,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em 5em;
-    background-color: #4fabdd;
+    padding: 1.1em 20em;
+    background-color: var(--cor-de-fundo)
+}
+
+@media screen and (max-width: 1440px) {
+    .cabecalho {
+        padding: 1.1em 10em
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .cabecalho {
+        padding: 0 1em;
+        flex-direction: column;
+    }
 }

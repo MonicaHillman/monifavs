@@ -1,0 +1,8 @@
+.galeria {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mensagemErro {
+    font-weight: 400;
+}
