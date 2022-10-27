@@ -1,6 +1,6 @@
 import CabecalhoLink from "componentes/CabecalhoLink";
 import styles from './Cabecalho.module.css';
-import logo from 'assets/Logo/Logo-cinetag-branco.png';
+import logo from './logo.png';
 import { Link } from "react-router-dom";
 
 function Cabecalho() {

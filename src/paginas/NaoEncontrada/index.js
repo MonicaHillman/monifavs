@@ -1,10 +1,10 @@
-import imagem from '../../assets/Imagens/FotoNaoEncontrada.svg';
+import imagem from './fotonaoencontrada.svg';
 import styles from './NaoEncontrada.module.css';
 
 function NaoEncontrada() {
     return (
         <>
-            <section className={styles.container}>
+            <section className={`${styles.container} conteudo`}>
                 <div>
                     <h2>Ops!</h2>
                     <p> O conteúdo que você busca não foi encontrado. Tente novamente mais tarde. </p>

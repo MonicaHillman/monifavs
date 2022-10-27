@@ -1,12 +1,7 @@
 .container {
     display: flex;
-    width: 100%;
     align-items: center;
     font-weight: 400;
-}
-
-.container img {
-    width: 100%;
 }
 
 .container h2 {

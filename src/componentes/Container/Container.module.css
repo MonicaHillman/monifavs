@@ -1,0 +1,11 @@
+.container section {
+    margin: 2em 20em;
+    text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+    .container section {
+        margin: 1em;
+        text-align: center;
+    }
+}

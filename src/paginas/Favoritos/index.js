@@ -9,23 +9,19 @@ function Favoritos() {
 
     return (
         <>
-            <Banner imagem="Favoritos"></Banner>
+            <Banner imagem="favoritos"></Banner>
             <Titulo>Meus Favoritos</Titulo>
-            <main className={styles.container}>
+            <section className={`${styles.container} conteudo`}>
                 {favorito.length > 0 ?
-                    <>
-                        {
-                            <div className={styles.galeria}>
-                                {favorito.map((fav) => (
-                                    <Card {...fav} key={fav.id} />
-                                ))}
-                            </div>
-                        }
-                    </>
+                    <div className={styles.galeria}>
+                        {favorito.map((fav) => (
+                            <Card {...fav} key={fav.id} />
+                        ))}
+                    </div>
                     :
                     <h2 className={styles.mensagemErro}>Ainda não há favoritos por aqui!</h2>
                 }
-            </main>
+            </section>
         </>
     )
 }

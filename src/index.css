@@ -14,19 +14,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-main {
-  margin: 2em 20em;
-  text-align: center;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-@media screen and (max-width: 1440px) {
-  main {
-    margin: 1em;
-    text-align: center;
-  }
 }
